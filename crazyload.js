@@ -21,7 +21,7 @@
         let offset = obj.getBoundingClientRect();
         let r = false;
         if (direct == 'all') {
-            r = offset.top <= view.b && offset.bottom >= view.t && offset.left >= view.l && offset.right <= view.r;
+            r = offset.top <= view.b && offset.bottom >= view.t && offset.left <= view.r && offset.right >= view.l;
         } else if (direct === 'vertical') {
             r = offset.top <= view.b && offset.bottom >= view.t;
         } else if (direct == 'horizontal') {

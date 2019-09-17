@@ -1,0 +1,23 @@
+{
+  "name": "crazyload",
+  "version": "1.0.0",
+  "description": "lazyload for img or background",
+  "main": "crazyload.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Toreant/crazyload.git"
+  },
+  "keywords": [
+    "lazyload",
+    "javascript"
+  ],
+  "author": "toreant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Toreant/crazyload/issues"
+  },
+  "homepage": "https://github.com/Toreant/crazyload#readme"
+}
